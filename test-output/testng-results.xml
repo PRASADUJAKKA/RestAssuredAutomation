@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-18T18:07:47 IST" name="Default suite" finished-at="2024-05-18T18:07:50 IST" duration-ms="3181">
+  <suite started-at="2024-05-19T01:42:26 IST" name="Default suite" finished-at="2024-05-19T01:42:27 IST" duration-ms="1049">
     <groups>
     </groups>
-    <test started-at="2024-05-18T18:07:47 IST" name="Default test" finished-at="2024-05-18T18:07:50 IST" duration-ms="3181">
-      <class name="api.test.DifferentWaystoPostRequest">
-        <test-method signature="postUser()[pri:1, instance:api.test.DifferentWaystoPostRequest@397fbdb]" started-at="2024-05-18T18:07:47 IST" name="postUser" finished-at="2024-05-18T18:07:49 IST" duration-ms="1789" status="PASS">
+    <test started-at="2024-05-19T01:42:26 IST" name="Default test" finished-at="2024-05-19T01:42:27 IST" duration-ms="1049">
+      <class name="api.test.CookiesDemo">
+        <test-method signature="getCookies()[pri:0, instance:api.test.CookiesDemo@1bb5a082]" started-at="2024-05-19T01:42:26 IST" name="getCookies" finished-at="2024-05-19T01:42:27 IST" duration-ms="1003" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postUser -->
-        <test-method signature="postUser2()[pri:2, instance:api.test.DifferentWaystoPostRequest@397fbdb]" started-at="2024-05-18T18:07:49 IST" name="postUser2" finished-at="2024-05-18T18:07:50 IST" depends-on-methods="api.test.DifferentWaystoPostRequest.postUser" duration-ms="937" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postUser2 -->
-        <test-method signature="postUser3()[pri:3, instance:api.test.DifferentWaystoPostRequest@397fbdb]" started-at="2024-05-18T18:07:50 IST" name="postUser3" finished-at="2024-05-18T18:07:50 IST" depends-on-methods="api.test.DifferentWaystoPostRequest.postUser2" duration-ms="404" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postUser3 -->
-      </class> <!-- api.test.DifferentWaystoPostRequest -->
+        </test-method> <!-- getCookies -->
+      </class> <!-- api.test.CookiesDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

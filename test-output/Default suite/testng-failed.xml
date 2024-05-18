@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.test.DifferentWaystoPostRequest">
+      <class name="api.test.CookiesDemo">
         <methods>
-          <include name="postUser3"/>
-          <include name="postUser2"/>
-          <include name="postUser"/>
+          <include name="getCookies"/>
         </methods>
-      </class> <!-- api.test.DifferentWaystoPostRequest -->
+      </class> <!-- api.test.CookiesDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
