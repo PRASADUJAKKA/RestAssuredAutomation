@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-19T01:42:26 IST" name="Default suite" finished-at="2024-05-19T01:42:27 IST" duration-ms="1049">
+  <suite started-at="2024-05-19T03:11:59 IST" name="Default suite" finished-at="2024-05-19T03:12:03 IST" duration-ms="4699">
     <groups>
     </groups>
-    <test started-at="2024-05-19T01:42:26 IST" name="Default test" finished-at="2024-05-19T01:42:27 IST" duration-ms="1049">
-      <class name="api.test.CookiesDemo">
-        <test-method signature="getCookies()[pri:0, instance:api.test.CookiesDemo@1bb5a082]" started-at="2024-05-19T01:42:26 IST" name="getCookies" finished-at="2024-05-19T01:42:27 IST" duration-ms="1003" status="PASS">
+    <test started-at="2024-05-19T03:11:59 IST" name="Default test" finished-at="2024-05-19T03:12:03 IST" duration-ms="4699">
+      <class name="api.test.JsonParserDemo">
+        <test-method signature="jsonParserDemo4()[pri:0, instance:api.test.JsonParserDemo@78691363]" started-at="2024-05-19T03:11:59 IST" name="jsonParserDemo4" finished-at="2024-05-19T03:12:03 IST" duration-ms="4612" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getCookies -->
-      </class> <!-- api.test.CookiesDemo -->
+        </test-method> <!-- jsonParserDemo4 -->
+      </class> <!-- api.test.JsonParserDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
