@@ -20,7 +20,7 @@ public class DiffWaysToQueryAndPathParameters {
 		.when()
 		.get("https://reqres.in/api/{mypath}")
 		.then()
-		.log().body();
+		.log().all();
 	}
 	
 	
