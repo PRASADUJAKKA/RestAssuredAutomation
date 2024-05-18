@@ -10,6 +10,9 @@
 			<class name="api.test.userTests2" />
 			<class name="api.test.DDuserTests" />
 			<class name="api.test.DifferentWaystoPostRequest" />
+			<class name="api.test.CookiesDemo" />
+			<class name="api.test.HeadersDemo" />
+			<class name="api.test.DiffWaysToQueryAndPathParameters" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

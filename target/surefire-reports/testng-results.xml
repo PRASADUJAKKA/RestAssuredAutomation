@@ -1,51 +1,265 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-18T11:40:00 IST" name="Suite" finished-at="2024-05-18T11:40:15 IST" duration-ms="14662">
+  <suite started-at="2024-05-19T01:54:17 IST" name="Suite" finished-at="2024-05-19T01:54:41 IST" duration-ms="23504">
     <groups>
     </groups>
-    <test started-at="2024-05-18T11:40:00 IST" name="Test" finished-at="2024-05-18T11:40:15 IST" duration-ms="14662">
+    <test started-at="2024-05-19T01:54:17 IST" name="Test" finished-at="2024-05-19T01:54:41 IST" duration-ms="23504">
+      <class name="api.test.HeadersDemo">
+        <test-method signature="getHeader2()[pri:0, instance:api.test.HeadersDemo@49139829]" started-at="2024-05-19T01:54:40 IST" name="getHeader2" finished-at="2024-05-19T01:54:40 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHeader2 -->
+        <test-method signature="getHeaders()[pri:0, instance:api.test.HeadersDemo@49139829]" started-at="2024-05-19T01:54:40 IST" name="getHeaders" finished-at="2024-05-19T01:54:41 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHeaders -->
+        <test-method signature="getHeaders3()[pri:0, instance:api.test.HeadersDemo@49139829]" started-at="2024-05-19T01:54:41 IST" name="getHeaders3" finished-at="2024-05-19T01:54:41 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHeaders3 -->
+      </class> <!-- api.test.HeadersDemo -->
+      <class name="api.test.DDuserTests">
+        <test-method signature="testpostUserwithDataProviders(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDuserTests@c8c12ac]" started-at="2024-05-19T01:54:32 IST" name="testpostUserwithDataProviders" data-provider="Data" finished-at="2024-05-19T01:54:33 IST" duration-ms="1125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Canedy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[a@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234567897]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpostUserwithDataProviders -->
+        <test-method signature="testpostUserwithDataProviders(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDuserTests@c8c12ac]" started-at="2024-05-19T01:54:33 IST" name="testpostUserwithDataProviders" data-provider="Data" finished-at="2024-05-19T01:54:34 IST" duration-ms="1078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1020]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kim]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[b@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234567897]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpostUserwithDataProviders -->
+        <test-method signature="testpostUserwithDataProviders(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDuserTests@c8c12ac]" started-at="2024-05-19T01:54:34 IST" name="testpostUserwithDataProviders" data-provider="Data" finished-at="2024-05-19T01:54:35 IST" duration-ms="1083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1030]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Steve]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[c@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234567897]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpostUserwithDataProviders -->
+        <test-method signature="testGetUserWithDD(java.lang.String)[pri:2, instance:api.test.DDuserTests@c8c12ac]" started-at="2024-05-19T01:54:35 IST" name="testGetUserWithDD" data-provider="UserNames" finished-at="2024-05-19T01:54:36 IST" duration-ms="1115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserWithDD -->
+        <test-method signature="testGetUserWithDD(java.lang.String)[pri:2, instance:api.test.DDuserTests@c8c12ac]" started-at="2024-05-19T01:54:36 IST" name="testGetUserWithDD" data-provider="UserNames" finished-at="2024-05-19T01:54:37 IST" duration-ms="1129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserWithDD -->
+        <test-method signature="testGetUserWithDD(java.lang.String)[pri:2, instance:api.test.DDuserTests@c8c12ac]" started-at="2024-05-19T01:54:37 IST" name="testGetUserWithDD" data-provider="UserNames" finished-at="2024-05-19T01:54:38 IST" duration-ms="1118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserWithDD -->
+      </class> <!-- api.test.DDuserTests -->
       <class name="api.test.userTests">
-        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.userTests@38d8f54a]" started-at="2024-05-18T11:40:00 IST" name="setupData" finished-at="2024-05-18T11:40:01 IST" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.userTests@77847718]" started-at="2024-05-19T01:54:17 IST" name="setupData" finished-at="2024-05-19T01:54:18 IST" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupData -->
-        <test-method signature="testPostUser()[pri:1, instance:api.test.userTests@38d8f54a]" started-at="2024-05-18T11:40:01 IST" name="testPostUser" finished-at="2024-05-18T11:40:05 IST" duration-ms="3945" status="PASS">
+        <test-method signature="testPostUser()[pri:1, instance:api.test.userTests@77847718]" started-at="2024-05-19T01:54:18 IST" name="testPostUser" finished-at="2024-05-19T01:54:20 IST" duration-ms="2587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testReadUser()[pri:2, instance:api.test.userTests@38d8f54a]" started-at="2024-05-18T11:40:05 IST" name="testReadUser" finished-at="2024-05-18T11:40:06 IST" duration-ms="1219" status="PASS">
+        <test-method signature="testReadUser()[pri:2, instance:api.test.userTests@77847718]" started-at="2024-05-19T01:54:20 IST" name="testReadUser" finished-at="2024-05-19T01:54:21 IST" duration-ms="1129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testReadUser -->
-        <test-method signature="testUpdateUser()[pri:3, instance:api.test.userTests@38d8f54a]" started-at="2024-05-18T11:40:06 IST" name="testUpdateUser" finished-at="2024-05-18T11:40:08 IST" duration-ms="2265" status="PASS">
+        <test-method signature="testUpdateUser()[pri:3, instance:api.test.userTests@77847718]" started-at="2024-05-19T01:54:21 IST" name="testUpdateUser" finished-at="2024-05-19T01:54:24 IST" duration-ms="2225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUser -->
-        <test-method signature="testDeleteUser()[pri:4, instance:api.test.userTests@38d8f54a]" started-at="2024-05-18T11:40:08 IST" name="testDeleteUser" finished-at="2024-05-18T11:40:09 IST" duration-ms="1125" status="PASS">
+        <test-method signature="testDeleteUser()[pri:4, instance:api.test.userTests@77847718]" started-at="2024-05-19T01:54:24 IST" name="testDeleteUser" finished-at="2024-05-19T01:54:25 IST" duration-ms="1139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteUser -->
       </class> <!-- api.test.userTests -->
+      <class name="api.test.DiffWaysToQueryAndPathParameters">
+        <test-method signature="QueryAndPathParams()[pri:0, instance:api.test.DiffWaysToQueryAndPathParameters@9597028]" started-at="2024-05-19T01:54:41 IST" name="QueryAndPathParams" finished-at="2024-05-19T01:54:41 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QueryAndPathParams -->
+        <test-method signature="QueryAndPathParams2()[pri:0, instance:api.test.DiffWaysToQueryAndPathParameters@9597028]" started-at="2024-05-19T01:54:41 IST" name="QueryAndPathParams2" finished-at="2024-05-19T01:54:41 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QueryAndPathParams2 -->
+      </class> <!-- api.test.DiffWaysToQueryAndPathParameters -->
+      <class name="api.test.DifferentWaystoPostRequest">
+        <test-method signature="postUser()[pri:1, instance:api.test.DifferentWaystoPostRequest@4ec4f3a0]" started-at="2024-05-19T01:54:38 IST" name="postUser" finished-at="2024-05-19T01:54:39 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUser -->
+        <test-method signature="postUser2()[pri:2, instance:api.test.DifferentWaystoPostRequest@4ec4f3a0]" started-at="2024-05-19T01:54:39 IST" name="postUser2" finished-at="2024-05-19T01:54:40 IST" depends-on-methods="api.test.DifferentWaystoPostRequest.postUser" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUser2 -->
+        <test-method signature="postUser3()[pri:3, instance:api.test.DifferentWaystoPostRequest@4ec4f3a0]" started-at="2024-05-19T01:54:40 IST" name="postUser3" finished-at="2024-05-19T01:54:40 IST" depends-on-methods="api.test.DifferentWaystoPostRequest.postUser2" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUser3 -->
+        <test-method signature="postUser4()[pri:4, instance:api.test.DifferentWaystoPostRequest@4ec4f3a0]" started-at="2024-05-19T01:54:40 IST" name="postUser4" finished-at="2024-05-19T01:54:40 IST" depends-on-methods="api.test.DifferentWaystoPostRequest.postUser3" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUser4 -->
+      </class> <!-- api.test.DifferentWaystoPostRequest -->
+      <class name="api.test.CookiesDemo">
+        <test-method signature="getCookies()[pri:0, instance:api.test.CookiesDemo@223191a6]" started-at="2024-05-19T01:54:40 IST" name="getCookies" finished-at="2024-05-19T01:54:40 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCookies -->
+        <test-method signature="getCookies2()[pri:0, instance:api.test.CookiesDemo@223191a6]" started-at="2024-05-19T01:54:40 IST" name="getCookies2" finished-at="2024-05-19T01:54:40 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCookies2 -->
+        <test-method signature="getCookies3()[pri:0, instance:api.test.CookiesDemo@223191a6]" started-at="2024-05-19T01:54:40 IST" name="getCookies3" finished-at="2024-05-19T01:54:40 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCookies3 -->
+      </class> <!-- api.test.CookiesDemo -->
       <class name="api.test.userTests2">
-        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.userTests2@689604d9]" started-at="2024-05-18T11:40:09 IST" name="setupData" finished-at="2024-05-18T11:40:09 IST" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.userTests2@1623b78d]" started-at="2024-05-19T01:54:25 IST" name="setupData" finished-at="2024-05-19T01:54:25 IST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupData -->
-        <test-method signature="testPostUser()[pri:1, instance:api.test.userTests2@689604d9]" started-at="2024-05-18T11:40:09 IST" name="testPostUser" finished-at="2024-05-18T11:40:10 IST" duration-ms="1079" status="PASS">
+        <test-method signature="testPostUser()[pri:1, instance:api.test.userTests2@1623b78d]" started-at="2024-05-19T01:54:25 IST" name="testPostUser" finished-at="2024-05-19T01:54:26 IST" duration-ms="1179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testReadUser()[pri:2, instance:api.test.userTests2@689604d9]" started-at="2024-05-18T11:40:10 IST" name="testReadUser" finished-at="2024-05-18T11:40:11 IST" duration-ms="1109" status="PASS">
+        <test-method signature="testReadUser()[pri:2, instance:api.test.userTests2@1623b78d]" started-at="2024-05-19T01:54:26 IST" name="testReadUser" finished-at="2024-05-19T01:54:27 IST" duration-ms="1104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testReadUser -->
-        <test-method signature="testUpdateUser()[pri:3, instance:api.test.userTests2@689604d9]" started-at="2024-05-18T11:40:11 IST" name="testUpdateUser" finished-at="2024-05-18T11:40:14 IST" duration-ms="2343" status="PASS">
+        <test-method signature="testUpdateUser()[pri:3, instance:api.test.userTests2@1623b78d]" started-at="2024-05-19T01:54:27 IST" name="testUpdateUser" finished-at="2024-05-19T01:54:29 IST" duration-ms="2283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUser -->
-        <test-method signature="testDeleteUser()[pri:4, instance:api.test.userTests2@689604d9]" started-at="2024-05-18T11:40:14 IST" name="testDeleteUser" finished-at="2024-05-18T11:40:15 IST" duration-ms="1125" status="PASS">
+        <test-method signature="testDeleteUser()[pri:4, instance:api.test.userTests2@1623b78d]" started-at="2024-05-19T01:54:29 IST" name="testDeleteUser" finished-at="2024-05-19T01:54:30 IST" duration-ms="1124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteUser -->
