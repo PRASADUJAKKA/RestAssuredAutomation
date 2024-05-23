@@ -6,14 +6,11 @@
 	</listeners>
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="api.test.userTests" />
-			<class name="api.test.userTests2" />
-			<class name="api.test.DDuserTests" />
-			<class name="api.test.DifferentWaystoPostRequest" />
-			<class name="api.test.CookiesDemo" />
-			<class name="api.test.HeadersDemo" />
-			<class name="api.test.DiffWaysToQueryAndPathParameters" />
-			<class name="api.test.JsonParserDemo" />
+			<class name="api.test.CreateUser" />
+			<class name="api.test.GetUser" />
+			<class name="api.test.UpdateUser" />
+			<class name="api.test.DeleteUser" />
 		</classes>
 	</test> <!-- Test -->
+
 </suite> <!-- Suite -->

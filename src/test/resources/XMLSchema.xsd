@@ -1,0 +1,39 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://ergast.com/mrd/1.5" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="MRData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="CircuitTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Circuit" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="CircuitName"/>
+                    <xs:element name="Location">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="Locality"/>
+                          <xs:element type="xs:string" name="Country"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:float" name="lat" use="optional"/>
+                        <xs:attribute type="xs:float" name="long" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="circuitId" use="optional"/>
+                  <xs:attribute type="xs:anyURI" name="url" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:short" name="season"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="series"/>
+      <xs:attribute type="xs:anyURI" name="url"/>
+      <xs:attribute type="xs:byte" name="limit"/>
+      <xs:attribute type="xs:byte" name="offset"/>
+      <xs:attribute type="xs:byte" name="total"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
