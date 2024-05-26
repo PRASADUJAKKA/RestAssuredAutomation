@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.test.DeleteUser">
+      <class name="api.test.Authentications">
         <methods>
-          <include name="delUser" invocation-numbers="0"/>
+          <include name="testAPIKeyuthentication"/>
         </methods>
-      </class> <!-- api.test.DeleteUser -->
+      </class> <!-- api.test.Authentications -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

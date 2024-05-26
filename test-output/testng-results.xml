@@ -1,63 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-23T22:06:21 IST" name="Suite" finished-at="2024-05-23T22:06:28 IST" duration-ms="6207">
+  <suite started-at="2024-05-26T12:16:12 IST" name="Default suite" finished-at="2024-05-26T12:16:18 IST" duration-ms="6378">
     <groups>
     </groups>
-    <test started-at="2024-05-23T22:06:21 IST" name="Test" finished-at="2024-05-23T22:06:28 IST" duration-ms="6207">
-      <class name="api.test.DeleteUser">
-        <test-method signature="delUser(org.testng.ITestContext)[pri:0, instance:api.test.DeleteUser@765d7657]" started-at="2024-05-23T22:06:27 IST" name="delUser" finished-at="2024-05-23T22:06:28 IST" duration-ms="1060" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@45ac5f9b]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-05-26T12:16:12 IST" name="Default test" finished-at="2024-05-26T12:16:18 IST" duration-ms="6378">
+      <class name="api.test.Authentications">
+        <test-method signature="testBasicAuthentication()[pri:1, instance:api.test.Authentications@1bb5a082]" started-at="2024-05-26T12:16:12 IST" name="testBasicAuthentication" finished-at="2024-05-26T12:16:15 IST" duration-ms="3039" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- delUser -->
-      </class> <!-- api.test.DeleteUser -->
-      <class name="api.test.GetUser">
-        <test-method signature="getUser(org.testng.ITestContext)[pri:0, instance:api.test.GetUser@5fe94a96]" started-at="2024-05-23T22:06:25 IST" name="getUser" finished-at="2024-05-23T22:06:25 IST" duration-ms="927" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@45ac5f9b]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testBasicAuthentication -->
+        <test-method signature="testDigesticAuthentication()[pri:2, instance:api.test.Authentications@1bb5a082]" started-at="2024-05-26T12:16:15 IST" name="testDigesticAuthentication" finished-at="2024-05-26T12:16:16 IST" duration-ms="1341" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUser -->
-      </class> <!-- api.test.GetUser -->
-      <class name="api.test.CreateUser">
-        <test-method signature="createUser(org.testng.ITestContext)[pri:0, instance:api.test.CreateUser@78691363]" started-at="2024-05-23T22:06:22 IST" name="createUser" finished-at="2024-05-23T22:06:25 IST" duration-ms="2878" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@45ac5f9b]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testDigesticAuthentication -->
+        <test-method signature="testPreemptiveAuthentication()[pri:3, instance:api.test.Authentications@1bb5a082]" started-at="2024-05-26T12:16:16 IST" name="testPreemptiveAuthentication" finished-at="2024-05-26T12:16:17 IST" duration-ms="1113" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-      </class> <!-- api.test.CreateUser -->
-      <class name="api.test.UpdateUser">
-        <test-method signature="UpdateUser(org.testng.ITestContext)[pri:0, instance:api.test.UpdateUser@443118b0]" started-at="2024-05-23T22:06:25 IST" name="UpdateUser" finished-at="2024-05-23T22:06:27 IST" duration-ms="1095" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@45ac5f9b]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testPreemptiveAuthentication -->
+        <test-method signature="testBearerTokenAuthentication()[pri:4, instance:api.test.Authentications@1bb5a082]" started-at="2024-05-26T12:16:17 IST" name="testBearerTokenAuthentication" finished-at="2024-05-26T12:16:18 IST" duration-ms="471" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UpdateUser -->
-      </class> <!-- api.test.UpdateUser -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testBearerTokenAuthentication -->
+        <test-method signature="testOAuth2Authentication()[pri:5, instance:api.test.Authentications@1bb5a082]" started-at="2024-05-26T12:16:18 IST" name="testOAuth2Authentication" finished-at="2024-05-26T12:16:18 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOAuth2Authentication -->
+      </class> <!-- api.test.Authentications -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
